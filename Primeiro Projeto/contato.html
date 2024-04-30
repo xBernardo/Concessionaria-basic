@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0">
+    <meta name="keywords" content="palavra-chave, greenwheels">
+    <link rel="preconnect" href="https://wm1-uploads.s3.amazonaws.com/">
+    <title>Green Wheel Ventures</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="logo"><a href="/index.html"><img src="./img/logo.png" alt="logo" style="width: 200px"></a></div>
+        <nav class="menu-desktop">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+                <li class="selected">
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </div>    
+    </header>
+    <section style="background-image:url('img/sobre.jpg');" class="title-page">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Na Green Wheel Ventures, a equipe de contato está pronta para a satisfação dos clientes.
+            Nossa equipe está comprometida em criar um futuro mais inteligente, mais limpo
+              e mais eficiente para todos os que desejam fazer parte dessa jornada.</p>
+            </div><!--container-->
+    </section>
+    <section class="contato">
+        <div class="container">
+            <div class="w60 formulario">
+                <h2>Entre em contato conosco!</h2>
+                <form method="post">
+                    <div class="w50">
+                        <input placeholder="Nome" type="text" required/>
+                    </div>
+                    <div class="w50">
+                        <input placeholder="Sobrenome" type="text" required/>
+                    </div>
+                    <div class="w100">
+                        <input placeholder="E-mail" type="email" required/>
+                    </div>
+                    <div class="w100">
+                        <textarea placeholder="Escreva para Green Wheels"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="w40 tags-forms">
+                <h2><i class="fa fa-comment"></i>Fale com nossa equipe!</h2>
+                <p>Entre em contato diretamente com nosso suporte</p>
+
+                <p class="tag">(81)9.9999-9999</p>
+                <p class="tag">(81)9.9999-9999</p>
+                <p class="tag">(81)9.9999-9999</p>
+                <p class="tag">(81)9.9999-9999</p>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </section>
+    <footer class="barra1">    
+        <div class="container">
+            <div class="w33">
+                <h2>Onde nos Encontrar</h2>
+                <p><i class="fa fa-map-pin" aria-hidden="true"></i>Vila ALvorada nª119</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i>Fone: (81)99999-9999</p>
+            </div>
+            <div class="w33">
+                <h2>Links</h2>
+                <a href="https://www.linkedin.com/in/rodrigo-bernardo-1223b4171/">Linkedin</a>
+            </div>
+             <div class="w33">
+                <h2>Redes Sociais</h2>
+                <div class="group-icons">
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i>@_bernardosilvaa</a>
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i>Bernardo Silva</a>
+                </div>
+             </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+ 
+    <footer class="barra2"> 
+        <div class="container"></div>
+        <p>Todos direitos reservados ao desenvolvedor(Bernardo)</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $('nav.menu-mobile h2').click(function(){
+            $('nav.menu-mobile ul').slideToggle();
+        })
+    </script>
+</body>
+</html>
